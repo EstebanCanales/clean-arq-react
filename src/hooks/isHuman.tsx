@@ -1,8 +1,8 @@
 import { FaPerson } from "react-icons/fa6";
-import { TbFileUnknown } from "react-icons/tb";
 import { PiAlien } from "react-icons/pi";
+import { TbFileUnknown } from "react-icons/tb";
 
-export const isHumam = (species: string) => {
+export const isHumam = (species: String) => {
 	return species === "Human" ? (
 		<FaPerson />
 	) : species === "Alien" ? (
